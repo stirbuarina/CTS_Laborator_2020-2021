@@ -10,3 +10,7 @@ Code review
 -elimina valorile predefinite din cod
 
 -datele de intrare NU sunt validate
+
+2.Single Responsability(SOLID) si KISS pentru functii
+-metoda calculeaza prea multe valori intermediare
+-se repeta o parte din prelucrari
