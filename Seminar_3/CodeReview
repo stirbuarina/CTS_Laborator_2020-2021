@@ -14,3 +14,22 @@ Code review
 2.Single Responsability(SOLID) si KISS pentru functii
 -metoda calculeaza prea multe valori intermediare
 -se repeta o parte din prelucrari
+
+
+3.SOLID
+-eliminare switch prin tratarea primului caz in mod generic
+-eliminare dependente legate de validarea datelor
+-eliminare dependente legate de prelucrarea dicountului
+
+
+
+
+
+
+
+
+
+
+
+
+
