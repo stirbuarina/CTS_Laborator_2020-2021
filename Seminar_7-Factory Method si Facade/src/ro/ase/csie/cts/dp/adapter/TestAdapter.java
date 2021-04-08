@@ -1,4 +1,4 @@
-package ro.ase.csie.cts.dp.facade.adapter;
+package ro.ase.csie.cts.dp.adapter;
 
 import java.util.ArrayList;
 

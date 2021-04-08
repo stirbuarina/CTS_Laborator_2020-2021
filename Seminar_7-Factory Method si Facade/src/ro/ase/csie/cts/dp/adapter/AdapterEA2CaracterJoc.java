@@ -1,4 +1,4 @@
-package ro.ase.csie.cts.dp.facade.adapter;
+package ro.ase.csie.cts.dp.adapter;
 
 import ro.ase.csie.cts.dp.factory.method.CaracterJoc;
 
