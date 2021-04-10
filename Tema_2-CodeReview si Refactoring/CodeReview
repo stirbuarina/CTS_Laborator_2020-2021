@@ -1,0 +1,50 @@
+
+CATEGORY MEAINGUL NAMES:
+1.Numele pachetului,assigment ,nu e sugestiv.
+2.Numele metodei imprumut() nu e sugestiv -> getValoareImprumut()
+3.Trebuie definit subpachetul .exceptii care sa includa exceptiile pentru validari
+4.Trebuie definit subpachetul .exceptii care sa includa exceptiile pentru validari
+5.Numele metodei calculeaza() nu e sugestiv -> calculeazaComisionBanca()
+numele metodei setValoare nu e sugestiv --> setValoareImprumut()
+6. Trebuie folosit mixed CamelCase, atributele nu respecta conventiile de nume
+tip_cont -> tipCont
+valoare_imprumut -> valoareImprumut
+to_string -> toString
+7.Folosirea gresita a numelui clasei in metoda calculeaza, nu este Account
+
+
+CATEGORY FUNCTIONS:
+8.metoda calculeaza() face mai multe lucruri si  incalca KISS si Single Responsavility
+9.lipsesc acoladele la if din metoda Cont si setValoare
+10.functiile nu trebuie sa mai afiseze cu System.out -> devin dependente de consola
+11.functia getRata() nu trebuie sa afiseze mesaje la consola cu System.out.println
+12.functia getImprumut() nu trebuie sa afiseze mesaje la consola cu System.out.println
+13.Metoda print() este inutila, nu face nimic si incalca YAGNI
+14.Valori hard-codate -> 0.125 trebuie definit ca atribut static constant COMISION_AGENT_BANCAR = 0.125 
+15.Atributul temp este inutil,nu este folosit si incalca YAHNI
+
+
+CATEGORY FORMATTING:
+16.Codul trebuie formatat pentru a fi mai usor de citit
+
+
+CATEGORY ENUMS:
+17.Atrbutele constante STANDARD,BUGET,PREMIUM,SUPER_PREMIUM trebuie puse intr-un enum.
+
+
+CATEGORY CLASSES:
+18.Fiecare variabila trebuie declarata pe fiecare rand
+19.metodele get/set trebuie grupate
+20.variabilele nu au modificatorul de acces declarat --> private
+21.Constructorul trebuie intializat la inceputul clasei
+22.lipeste this din constructor
+
+
+CATEGORY EXCEPTIONS:
+23.Validarile sunt generice, trebuie folosite exceptii de tip checked declarate in alte clase
+
+
+CATEGORY COMMENTS:
+23.Comentariile sunt inutile,codul trebuie sa fie autoexplicativ
+
+
