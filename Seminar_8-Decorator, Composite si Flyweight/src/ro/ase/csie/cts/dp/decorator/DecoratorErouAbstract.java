@@ -30,7 +30,7 @@ public abstract class DecoratorErouAbstract extends SuperErou{
 
 	@Override
 	public int getPuncteViata() {
-		return this.puncteViata;
+		return this.erou.getPuncteViata();
 	}
 	
 	
