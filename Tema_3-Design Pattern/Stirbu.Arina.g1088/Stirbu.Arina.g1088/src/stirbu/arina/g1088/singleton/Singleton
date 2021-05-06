@@ -1,0 +1,20 @@
+Tema licenta:
+ Aplicatie web pentru gestionarea serviciilor medicale
+
+Solutie:
+Tema licentei o constituie gestionarea serviciilor medicale in cadrul unei clinici medicale private.
+Deoarece clinica are un singur sediu, se doreste implementarea unei singure instante a clasei Clinica.
+
+
+Avantaje:
+-Controleaza accesul la instanta unica, deoarece clasa Singleton incapsuleaza propria instanta;
+-Usor de implementat;
+-Lazyinstantiation are avantajul de a crea obiectul atunci când este necesar;
+-asigura o flexibilitate mai mare decat daca s-ar utiliza metode statice;
+
+
+Dezavantaje:
+-poate provoca probleme de threading;
+
+
+

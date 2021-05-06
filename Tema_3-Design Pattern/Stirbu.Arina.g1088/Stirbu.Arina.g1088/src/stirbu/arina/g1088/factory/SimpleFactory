@@ -1,0 +1,15 @@
+Tema licenta:
+ Aplicatie web pentru gestionarea serviciilor medicale
+
+Solutie:
+Clinica in prezent are 4 sectii:CARDIOLOGIE,PEDIATRIE,DERMATOLOGIE,CHRIRUGIE, insa fiind o clinica nou deschisa, 
+pe viitor va dori sa includa cat mai multe sectii pentru a deveni o clinica pentru orice nevoie medicala.
+
+
+Avantaje:
+-simplicitatea implementarii;
+-complexitatea crearii obiectelor este ascunsa clientului;
+-sunt eliminate dependentele codului clientului de crearea efectivã a obiectelor;
+
+
+

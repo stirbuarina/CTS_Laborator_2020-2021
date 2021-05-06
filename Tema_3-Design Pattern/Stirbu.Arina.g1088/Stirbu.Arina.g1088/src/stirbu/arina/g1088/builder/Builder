@@ -1,0 +1,16 @@
+Tema licenta:
+ Aplicatie web pentru gestionarea serviciilor medicale
+
+Solutie:
+Angajatii clincii au multe atribute. 
+Acestia pot fi atat medici cat si asistenti, iar crearea lor trebuie particularizata.
+Trebuie gasita o solutie prin care se pot crea noi angajati fara a da valori tuturor atributelor.
+
+
+Avantaje:
+-simplifica gestionarea fluxului general de creare a obiectelor complexe;
+-clientul alege ce părți sa fie create;
+
+Dezavantaje:
+-pot fi omise atribuite la creare
+

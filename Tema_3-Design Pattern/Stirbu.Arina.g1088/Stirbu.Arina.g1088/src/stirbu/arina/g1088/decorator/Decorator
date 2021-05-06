@@ -1,0 +1,15 @@
+Tema licenta:
+ Aplicatie web pentru gestionarea serviciilor medicale
+
+Solutie:
+Medicii clinicii pot prescrie retete pacientilor sai.
+Acestea pot fi la pretul lor intreg sau pot beneficia de un discount pentru acestea sau pot
+fi retete compensate.
+
+Avantaje:
+-Nu impune limite privind un numãr maxim de decorãri
+-este transparenta pentru utilizator
+
+Dezavantaje:
+-daca vom decora mai multe obiecte exista riscul de a face codul mult mai greu de citit si de inteles;
+

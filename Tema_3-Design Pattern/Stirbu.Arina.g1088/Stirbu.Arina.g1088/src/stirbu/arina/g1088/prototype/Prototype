@@ -1,0 +1,17 @@
+Tema licenta:
+ Aplicatie web pentru gestionarea serviciilor medicale
+
+Solutie:
+Clinica ofera, pe langa servicii medicale, si o lista cu medicamente pe care medicii urmeaza sa le prescrie pacientilor sai.
+Aceasta doreste sa isi vanda medicamentele si altor clinici.
+Acest lucru ar fi foarte costisitor daca ar trebui sa cream o noua lista cu medicamentele deja existente.
+Clinica noastra insa doreste ca medicamentele prepartate de ei sa nu fie vandute celorlalte clinici cu care vor colabora.
+
+Avantaje:
+-reduce nevoia de subclase;
+-ascunde complexitatea crearii obiectelor;
+-clientii pot crea noi obiecte fara sa stie vada complexitatea obiectelor;
+-poti crea sau sterge obiecte la runtime;
+
+Dezavantaje:
+-pot fi omise atribute la crearea obiectelor;
