@@ -6,9 +6,13 @@ public abstract class ModulProcesareMesal {
 	
 	public abstract void procesareMesaj(MesajChat mesaj);
 
-
- 
 	
+	//!!!!!!!!!!!!!!!!!!!
+	public void setNext(ModulProcesareMesal next) {
+		this.next = next;
+	}
+
+
 
 }
 
