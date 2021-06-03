@@ -8,10 +8,13 @@ import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
+import org.junit.experimental.categories.Category;
 
+import categorii.TestPerformanta;
 import exceptii.ExceptieNota;
 import exceptii.ExceptieNume;
 import exceptii.ExceptieVarsta;
+
 import modele.Student;
 
 import java.util.ArrayList;
@@ -94,6 +97,8 @@ public class TestStudent {
 		student.setNume(numeNou);
 	}
 	
+	
+	@Category(TestPerformanta.class)
 	@Test 
 	public void testGetNotaMinimaOrderingSetSortatCrescator() throws ExceptieNota {
 		int notaMinima = 4;
